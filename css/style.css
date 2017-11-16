@@ -1,0 +1,76 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #1f2142;
+  font-family: 'Open Sans';
+  color: white;
+}
+
+.wrapper {
+  margin-top: 100px;
+}
+
+.coin-hive {
+  overflow: hidden;
+  width: 600px;
+  margin: auto;
+  user-select: none;
+}
+
+.coin-hive h1 {
+  margin-bottom: 1em;
+}
+
+.coin-hive h1 span{
+  font-size: 0.4em;
+}
+
+.coin-hive p.info {
+  font-size: 0.9em;
+  margin-bottom: 2em;
+}
+
+.coin-hive p {
+  font-size: 1em;
+  margin-bottom: 0.5em;
+}
+
+.coin-hive p span{
+  font-size: 2em;
+}
+
+.hashes {
+  width: 50%;
+  float: left;
+}
+
+.threads {
+  width: 50%;
+  float: left;
+}
+
+.coin-hive p span.small {
+  font-size: 0.7em;
+}
+
+.plus,.minus:hover{
+  cursor: pointer;
+}
+
+#toggle {
+  font-size: 2em;
+}
+
+#toggle:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Coin hive implement test">
+  <meta name="keywords" content="crypto miner">
+  <meta name="author" content="Erik Alfredsson">
+  <meta content="width=device-width,initial-scale=1.0" name="viewport">
+
+  <title>Crypto coin miner</title>
+
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<div class="wrapper">
+
+  <div class="coin-hive">
+    <h1>Crypto coin <span>(check your task manager for cpu usage)</span></h1>
+    <p class="info">This is a place for curious users. This script only runs when you press start. When you press stop or leave this tab, the script stops. Use at your own risk.</p>
+    <div class="hashes">
+      <p>Hashes per second<br><span id="hashesPerSecond">0</span></p>
+      <p>Total hashes solved<br><span id="totalHashes">0</p>
+      <p>Accepted hashes<br><span id="acceptedHashes">0</p>
+    </div>
+    <div class="threads">
+      <p>Number of threads <br><span class="small">(be careful, dont go higher than available cores)</span><br>
+        <span id="numThreads">1</span><span class="plus" id="addThread"> +</span><span class="divide">/</span><span class="minus" id="removeThread">–</span></p>
+      <p>Speed <br><span id="numSpeed">100</span><span>%</span><span class="plus" id="addSpeed"> +</span><span class="divide">/</span><span class="minus" id="removeSpeed">–</span></p>
+      <div id="toggle">Start</div>
+    </div>
+  </div>
+
+</div><!-- /#wrapper -->
+
+
+<script src="https://coinhive.com/lib/coinhive.min.js"></script>
+<script type="text/javascript" src="script/main.js"></script>
+</body>
+</html>
